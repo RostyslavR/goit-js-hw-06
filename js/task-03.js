@@ -15,14 +15,23 @@ const images = [
 
 document.head.insertAdjacentHTML(
   "beforeend",
-  `<link rel="stylesheet" href="css/hwstyle.css" />`
+  `<style>
+  .gallery
+  {
+    display: flex;
+    flex-wrap: 
+    wrap;gap: 10px;
+    justify-content: center;
+    align-items: baseline;
+  }
+  </style>`
 );
 const refGallery = document.querySelector(".gallery");
 const makeImageString = ({ url, alt }) => {
   return `<img
-  class="gallery-img"
    src = ${url}
    alt = ${alt}
+   width = 400
    />
    `;
 };
