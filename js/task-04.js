@@ -13,17 +13,17 @@ refIncrementBtn.addEventListener("click", () => {
 });
 
 //**********************
-// function updateCounter(counterValue) {
+// function updateCounterValue(counterValue) {
 //   refCounter.textContent = counterValue;
 // }
-// function onClickDecrement() {
+// function onDecrementClick() {
 //   counterValue -= 1;
-//   updateCounter(counterValue);
+//   updateCounterValue(counterValue);
 // }
-// function onClickIncrement() {
+// function onIncrementClick() {
 //   counterValue += 1;
-//   updateCounter(counterValue);
+//   updateCounterValue(counterValue);
 // }
-// refDecrementBtn.addEventListener("click", onClickDecrement);
-// refIncrementBtn.addEventListener("click", onClickIncrement);
+// refDecrementBtn.addEventListener("click", onDecrementClick);
+// refIncrementBtn.addEventListener("click", onIncrementClick);
 //***********************
