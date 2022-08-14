@@ -8,7 +8,7 @@ refDecrementBtn.addEventListener("click", () => {
   refCounter.textContent = counterValue;
 });
 refIncrementBtn.addEventListener("click", () => {
-  counterValue -= 1;
+  counterValue += 1;
   refCounter.textContent = counterValue;
 });
 
